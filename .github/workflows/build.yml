@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
   schedule:
-    - cron: '45 5 * * *'
+    - cron: '45 15 * * *'
 jobs:
   sonarqube:
     name: SonarQube
